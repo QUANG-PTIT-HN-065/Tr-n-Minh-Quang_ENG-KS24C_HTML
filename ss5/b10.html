@@ -1,76 +1,91 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .button {
+            border: none;
+            background-color: #0D6EFB;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+            width: 95%;
+        }
+        .inputtext {
+            width: 95%;
+        }
+        .table {
+            width: 98%;
+            border-collapse: collapse;
+        }
+        
+    </style>
 </head>
 <body>
     <div style="margin: auto; background-color: #F8F9FA; width: 30%; padding-left: 10px;">
         <form action="" style="width: 100%; ">
             <h1>Billing address</h1>
-            <table>
+            <table class="table">
                 <tr>
                     <td>
                         <label for="">first name: 
                             <br>
-                            <input type="text">
+                            <input class="inputtext" type="text">
                         </label>
                     </td>
                     <td>
                         <label for="">last name: 
                             <br>
-                            <input type="text">
+                            <input class="inputtext" type="text">
                         </label>
                     </td>
                 </tr>
-                <tr>
-                    <td colspan="2">
-                        <label for="username">Username</label>
+            </table>
+            <label for="username">Username</label>
                          <div>
                             <button>@</button>
-                            <input type="text" id="username" placeholder="Username">
+                            <input style="width: 87.5%;" type="text" id="username" placeholder="Username">
                         </div>
-                    </td>
-                </tr>
-            </table>
+            <br>
             <label for="">Email <span>(optional)</span></label>
             <br>
-            <input type="email" name="" id="" placeholder="you@example.com">
+            <input type="email" name="" class="inputtext" placeholder="you@example.com">
             <br>
             
             <div>
                 <label for="">Address</label>
                 <br>
-                <input type="text" name="" id="" placeholder="123 Mail st">
+                <input type="text" class="inputtext" placeholder="123 Mail st">
             
             </div>
             <div>
                 <label for="">Address 2 <span>(optional)</span></label>
                 <br>
-                <input type="text" name="" id="" placeholder="apartment or suite">
+                <input type="text" class="inputtext" placeholder="apartment or suite">
             </div>
-
             <table >
                 <tr>
-                    <td>
+                    <td class="td" style="width: 180px;">
                         <label for="">country:</label>
                         <br>
-                        <select name="" id="">
+                        <select class="inputtext" name="" id="">
                             <option value="">chocce...</option>
                         </select>
-                    </td>
-                    <td>
+                    </td >
+                    <td class="td" style="width: 144px ;">
                         <label for="">state</label>
                         <br>
-                        <select name="" id="">
+                        <select class="inputtext" name="" id="">
                             <option value="">chocce...</option>
                         </select>
                     </td> 
-                    <td>
+                    <td class="td">
                         <label for="">zip</label>
                         <br>
-                        <input type="text" name="" id="">
+                        <input style="width: 100px;" type="text" name="" id="">
                     </td> 
                 </tr>
             </table>
@@ -86,50 +101,37 @@
             <br>
             <input type="radio" name="a" id="">PayPal
             <br>
-            <table>
+            <table class="table">
                 <tr>
                     <td>
                         <label for="">Name on card</label>
                         <br>
-                        <input type="text">
+                        <input class="inputtext" type="text">
                     </td>
                     <td>
                         <label for="">Credit card number</label>
                         <br>
-                        <input type="text">
+                        <input class="inputtext" type="text">
                     </td>
                 </tr>
             </table>
             <p>Full name as displayed on card</p>
-            <table>
+            <table class="table">
                 <tr>
                     <td>
-                        <label for="">Name on card</label>
+                        <label for="">Expiration</label>
                         <br>
                         <input type="text">
                     </td>
                     <td>
-                        <label for="">Credit card number</label>
+                        <label for="">CVV</label>
                         <br>
                         <input type="text">
                     </td>
                 </tr>
             </table>
-            <p>Full name as displayed on card</p>
-            <table>
-                <tr>
-                    <td>
-                        <label for="">Name on card</label>
-                        <br>
-                        <input type="text">
-                    </td>
-                    <td>
-                        <label for="">Credit card number</label>
-                        <br>
-                        <input type="text">
-                    </td>
-                </tr>
-            </table>
+            <hr style="width: 90%; ">
+            <button class="button">continue to checkbox</button>
         </form>
     </div>
 </body>
