@@ -1,0 +1,35 @@
+.div {
+    width: 20%;
+    margin: auto;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 9px black;
+    border-radius: 5px;
+}
+button {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.w {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+span {
+    color: #FF8C00;
+}
+.td {
+    width: 100%;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: #ED1A35;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+img {
+    position: absolute;
+    top: 0px;
+    right: 38%;
+}

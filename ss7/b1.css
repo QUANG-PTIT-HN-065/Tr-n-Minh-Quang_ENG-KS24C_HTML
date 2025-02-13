@@ -1,0 +1,35 @@
+h1 , p {
+    color: #231751;
+}
+.div {
+    width: 32%;
+    background-color: #EAEAEA;
+    padding: 10px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    padding: 8px;
+    border-radius: 5px;
+}
+.icon-check {
+    width: 24px;
+    height: 24px;
+    background-image: url('https://rikkei.edu.vn/wp-content/themes/hoabinhweb-v3-154-child-theme/image/icon-check.png');
+    display: inline-block;
+}
+.note {
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+    align-items: center;
+}
+p {
+    color: #4D4D4D;
+}
+b {
+    color: #41455E;
+}

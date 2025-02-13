@@ -1,0 +1,25 @@
+.component {
+    width: 280px;
+    border: 1px solid #C1BCD1;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0;
+}
+body {
+    background-color: #F2F1F5;
+}
+h1 ,b{
+    margin: 0;
+}
+h1 {
+    color: #BC2229;
+}
+b {
+    color: #231751;
+    font-size: 19px;
+}
+table {
+    border-spacing: 20px ;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            font-size: 20px;
+        }
+        .div {
+            padding: 20px;
+            border: 1px solid #CCCCCC;
+        }
+        span {
+            color: #D63384;
+        }
+        .button {
+            position:absolute;
+            top: 89px;
+            right: 25%;
+            padding: 0;
+            margin: 0;
+            color: black;
+            background-color: white;
+            border: none;
+            width: 40px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 54%; margin: auto; padding: 60px;">
+        <div class="div" style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            Accordion Item #1
+            <button class="button">&or;</button>
+        </div>
+        <div class="div" style="background-color: #D0E2FF; border-top: none; border-bottom: none;">
+            Accordion Item #2
+            <button class="button" style=" top: 21%; background-color: #D0E2FF;">&and;</button>
+        </div>
+        <div class="div">
+            <b>This is the second item's accordion body.</b> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <span>.accordion-body</span>, though the transition does limit overflow.
+        </div>
+        <div class="div" style="border-bottom-right-radius: 8px; border-bottom-left-radius: 8px;">
+            Accordion Item #3
+            <button class="button" style=" top: 51%;">&or;</button>
+        </div>
+    </div>
+</body>
+</html>
