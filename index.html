@@ -1,14 +1,38 @@
-<button onclick="openAll()">Mở tất cả bài tập</button>
-
-<script>
-function openAll() {
-    const files = [
-        "ss7/b1.html",
-        "ss7/b2.html",
-        "ss7/b3.html",
-        "ss7/b4.html",
-        "ss7/b5.html"
-    ];
-    files.forEach(file => window.open(file, "_blank"));
-}
-</script>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách bài tập</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Danh sách bài tập</h1>
+    <ul>
+        <li><a href="ss7/b1.html" target="_blank">Bài 1</a></li>
+        <li><a href="ss7/b2.html" target="_blank">Bài 2</a></li>
+        <li><a href="ss7/b3.html" target="_blank">Bài 3</a></li>
+        <li><a href="ss7/b4.html" target="_blank">Bài 4</a></li>
+        <li><a href="ss7/b5.html" target="_blank">Bài 5</a></li>
+    </ul>
+</body>
+</html>
