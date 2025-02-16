@@ -1,0 +1,37 @@
+.project-container{
+    width: 400px;
+    border: 1px solid #e3e5ec;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+.project-container h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.project-container button {
+    background-color: #FFEECA;
+    color: #E57809;
+    border: 1px solid #E57809;
+    font-size: 16px;
+    margin: 25px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+a {
+    text-decoration: none;
+}
+.progress-title {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0;
+    padding: 0;
+}
+.progress-bar {
+    height: 5px;
+    
+}
