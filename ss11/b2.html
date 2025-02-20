@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .border {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .row1 {
+            width: 100%;
+            height: 40px;
+            background-color: #78BCBE;
+        }
+        .row2 {
+            display: flex;
+            gap: 20px;
+            width: 100%;
+        }
+        .chil1 {
+            width: 50%;
+            height: 200px;
+            background-color: aqua;
+        }
+        @media screen and (max-width: 1024px) {
+            .row1 , .row2 {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .row1 ,.chil1 {
+                width: 100%;
+                height: 115px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="border">
+        <div class="row1"></div>
+        <div class="row2">
+            <div class="chil1" style="background-color: #EB5C48;"></div>
+            <div class="chil1" style="background-color: #F7B342;"></div>
+        </div>
+        <div class="row1"></div>
+        <div class="row2">
+            <div class="chil1" style="background-color: #3F5F7C;"></div>
+            <div class="chil1" style="background-color: #EF7A71;"></div>
+            <div class="chil1" style="background-color: #F3B641"></div>
+        </div>
+    </div>
+</body>
+</html>

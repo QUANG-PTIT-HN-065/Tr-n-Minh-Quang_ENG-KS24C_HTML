@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .row1 {
+            width: 100%;
+            height: 170px;
+            background-color: #A60162;
+        }
+        .row2 , .row3 {
+            display: flex;
+            gap: 20px;
+            margin: 0px;
+        }
+        .chil1 {
+            width: 100%;
+            height: 150px;
+            background-color: #DB317F;
+        }
+        .chil2 {
+            width: 100%;
+            height: 160px;
+            background-color: #DE5D9E;
+        }
+        .row4 {
+            width: 100%;
+            height: 100px;
+            background-color: #ED7BB8;
+        }
+        @media screen and (max-width: 1024px){
+            .row2,.row3 {
+                flex-wrap: wrap;
+                gap: 36px;
+            }
+            .chil1 {
+                width: calc(50% - 20px);
+            }
+        }
+        @media screen and (max-width: 768px){
+            .row2,.row3 {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .chil1 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="border">
+        <div class="row1"></div>
+        <div class="row2">
+            <div class="chil1"></div>
+            <div class="chil1"></div>
+            <div class="chil1"></div>
+            <div class="chil1"></div>
+        </div>
+        <div class="row3">
+            <div class="chil2"></div>
+            <div class="chil2"></div>
+        </div>
+        <div class="row4"></div>
+    </main>
+</body>
+</html>

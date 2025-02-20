@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .head {
+            background-color: #333333;
+            color: white;
+            width: 20%;
+            height: 700px;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 60px;
+        }
+        .border {
+            display: flex;
+        }
+        .content {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #F4F4F4;
+            justify-content: space-around;
+        }
+        .content1 {
+            width: 90%;
+            border-radius: 10px;
+            background-color: #FFFFFF;
+            box-shadow:9px 9px 9px #333333;
+        }
+        .h1 {
+            font-weight: 900;
+            font-size: 40px;
+            padding: 20px ;
+            padding-bottom: 0px;
+        }
+        .p {
+            font-size: 20px;
+            padding: 20px ;
+            padding-top: 4px;
+        }
+        @media screen and (max-width: 1024px) {
+            .border {
+                flex-wrap: wrap;
+            }
+            .head {
+                width: 40%;
+            }
+            .footer {
+                margin-top: 30px;
+                padding: 20px;
+                max-height:max-content ;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .border {
+                flex-direction: column;
+            }
+            .head {
+                width: 100%;
+                height: max-content;
+            }
+            .footer {
+                margin: 0;
+                padding: 20px;
+                max-height:max-content ;
+            }
+            .content {
+                padding: 20px 0px;
+                width: 100%;
+                gap: 20px;
+            }
+            .p {
+                font-size: 19px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="border">
+        <div class="head">Rikkei</div>
+        <div class="content">
+            <div class="content1">
+                <p class="h1">About me</p>
+                <p class="p">This is the section where I introduce myself.</p>
+            </div>
+            <div class="content1">
+                <p class="h1">My sills</p>
+                <Here class="p">Here are the technologies I know.</p>
+            </div>
+            <div class="content1">
+                <p class="h1">projects</p>
+                <p class="p">These are some of the projects I have worked on</p>
+            </div>
+        </div>
+        <div class="head footer" style="font-size: 20px;">contact: rekkei.@gmail.com</div>
+    </div>
+</body>
+</html>
