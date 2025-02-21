@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .conten {
+            width: 30%;
+            border: 1px solid rgb(49, 49, 49);
+            border-radius: 10px;
+            margin: 20px auto;
+            box-shadow: 9px 9px 20px rgb(54, 54, 54);
+        }
+        .hi {
+            margin:20px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="conten">
+        <div class="modal-header hi">
+            <h5 class="modal-title">Đăng ký thành viên</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <hr style="color: rgb(54, 54, 54); width: 100%; margin: 0px;">
+        <div class="modal-body hi">
+            <form>
+                <div class="mb-3">
+                    <label for="fullname" class="form-label">Họ và Tên</label>
+                    <input type="text" class="form-control" id="fullname" >
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" >
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Mật khẩu</label>
+                    <input type="password" class="form-control" id="password" >
+                </div>
+                <button type="submit" class="btn btn-success">Đăng ký</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
