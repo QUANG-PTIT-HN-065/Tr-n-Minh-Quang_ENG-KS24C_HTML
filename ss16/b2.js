@@ -1,0 +1,12 @@
+let number = 10;
+let price = 20.5;
+let status = 1; 
+let city = "Hà Nội";
+let price1= parseFloat(price);
+let num = Number(number);
+let city1 = String(city);
+let status1 = Boolean(status);
+document.write("Giá trị của biến number: " + number + "<br>");
+document.write("Giá trị của biến price: " + price + "<br>");
+document.write("Giá trị của biến status: " + status + "<br>");
+document.write("Giá trị của biến city: " + city );
