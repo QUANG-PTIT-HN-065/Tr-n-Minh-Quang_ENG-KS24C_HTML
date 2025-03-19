@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body1{
+            display: flex;
+            gap: 20px;
+        }
+        .red{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        .gre {
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        .tim {
+            background-color: purple;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <p>change background-color</p>
+    <p>Mouse click</p>
+    <div class="body1">
+        <div class="red" onclick="color1('red')">
+            đỏ
+        </div>
+        <div class="gre" onclick="color1('green')">
+            xanh
+        </div>
+        <div class="tim" onclick="color1('purple')">
+            tím
+        </div>
+    </div>
+    <script src="/ss31/b3.js"></script>
+</body>
+</html>
