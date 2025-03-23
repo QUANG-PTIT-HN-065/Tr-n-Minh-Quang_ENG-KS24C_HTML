@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/ss33/b7.css">
+</head>
+<body>
+    <h1>Cửa hàng Đơn giản</h1>
+    <div class="container" style="display: flex;">
+        <div class="products-container">
+            <h2>Sản phẩm</h2>
+            <div class="product-grid" id="product-grid" style="display: grid;">
+            </div>
+        </div>
+        <div class="cart-container">
+            <h2>Giỏ hàng</h2>
+            <div id="cart-items">
+                <div class="empty-cart">Giỏ hàng trống</div>
+            </div>
+            <div class="cart-total" id="cart-total">Tổng: 0đ</div>
+            <button class="checkout-btn" id="checkout-btn" onclick="pay()">Thanh toán</button>
+        </div>
+    </div>
+    <div style="height: 1000px;"></div>
+    <script src="/ss33/b7.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.button {
+    color: white;
+    background-color: rgb(27, 160, 27);
+    border: none;
+}
+input {
+    border: 1px solid rgb(27, 160, 27);
+    outline: none;
+    width: 80%;
+    margin-bottom: 50px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+#result {
+    display: flex;
+    gap: 10px;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 200px;
+    height: 500px;
+    padding: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+}
+.button1 {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: rgb(10, 104, 228);
+}

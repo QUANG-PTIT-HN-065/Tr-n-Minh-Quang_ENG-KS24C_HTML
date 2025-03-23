@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .myInput {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #000000;
+            border-radius: 10px;
+            width: 300px;
+        }
+        #input {
+            padding: 10px;
+            border: none;
+            width: 200px;
+            outline: none;
+        }
+        button {
+            padding: 10px;
+            background-color: white;
+            border: none;
+            color: #444343;
+            cursor: pointer;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="myInput">
+        <input type="password" id="input" placeholder="Enter your name">
+        <button onclick="showAlert()"><i class="fa-solid fa-eye"></i></button>
+    </div>
+    <script src="https://kit.fontawesome.com/aee2c1f27c.js" crossorigin="anonymous"></script>
+    <script>
+        let count = 0
+        function showAlert() {
+           let input = document.getElementById('input')
+           if (count  == 0) {
+               input.type = 'text'
+               count = 1
+           } else if (count == 1) {
+               input.type = 'password'
+                count = 0
+           }
+        }
+    </script>
+</body>
+</html>
