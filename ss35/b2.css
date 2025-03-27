@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpapers.com/images/hd/periwinkle-anchor-pattern-qaqs6sjhx4bnj21q.jpg");
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #7c59b0;
+}
+
+#btn {
+    border-radius: 5px;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px;
+    background-color: #7c59b0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #ffffff;
+}
+
+#bodyurl {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#url {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+label {
+    color: #7c59b0;
+}
+
+#bodyurl button {
+    color: #ffffff;
+    margin-top: 10px;
+    width: 50px;
+    height: 30px;
+    border: 0;
+    background-color: #7c59b0;
+}
+
+#head button {
+    background-color: #7c59b0;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+}
+
+#addBookmark {
+    border: none;
+    background-color: rgba(22, 20, 20, 0.833);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.body2 {
+    border: none;
+    background-color: rgba(22, 20, 20, 0.833);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+#body{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý danh mục</title>
+    <link rel="stylesheet" href="/ss35/b5.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navnav">
+        <h2>Danh mục</h2>
+        <button id="btnAdd">Thêm mới danh mục</button>
+      </div>
+      <div class="toolbar">
+        <select id="statusFilter">
+          <option value="all">Tất cả</option>
+          <option value="active">Đang hoạt động</option>
+          <option value="inactive">Ngừng hoạt động</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Tìm kiếm danh mục theo tên" />
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Mã danh mục</th>
+            <th>Tên danh mục</th>
+            <th>Trạng thái</th>
+            <th>Chức năng</th>
+          </tr>
+        </thead>
+        <tbody id="categoryList"></tbody>
+      </table>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Thêm mới danh mục</h3>
+
+        <label>Mã danh mục</label>
+        <input type="text" id="categoryId" />
+        <span class="error" id="error-categoryId"></span>
+
+        <label>Tên danh mục</label>
+        <input type="text" id="categoryName" />
+        <span class="error" id="error-categoryName"></span>
+
+        <label>Trạng thái</label>
+        <div id="categoryStatus">
+          <label> <input type="radio" name="status" value="active" checked /> Đang hoạt động </label>
+          <label> <input type="radio" name="status" value="inactive" /> Ngừng hoạt động </label>
+        </div>
+
+        <button id="btnSave">Thêm</button>
+      </div>
+    </div>
+
+    <script src="/ss35/b5.js"></script>
+    <script src="https://kit.fontawesome.com/aee2c1f27c.js" crossorigin="anonymous"></script>
+  </body>
+</html>
