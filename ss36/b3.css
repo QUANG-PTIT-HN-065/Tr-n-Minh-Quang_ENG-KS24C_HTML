@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+.colorButtons{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+#btnYellow{
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 25px;
+}
+#btnRed{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 25px;
+}
+#btnPurple{
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 25px;
+}
+#btnBlue{
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 25px;
+}
